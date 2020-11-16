@@ -1,28 +1,128 @@
 <!DOCTYPE html>
-<html lang="sv">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HTML-element och CSS</title>
-        <!-- <style>
-            h1 {
-                font-size: 4rem;
-            }
-        </style> -->
-        <link rel="
-stylesheet" href="../">
-    </head>
-    </html>
-    <head>
-        <title> Titel på webbsidan</title>
-    </head>
-    <body>
-        <h1>Välkommen!
-        </h1>
-        <p>Nu har vi gjort vår första webbsida.</p>
-        <h2>Grattis!</h2>
-        <b>Du har vunnit ett pris!</b>
-    <p>Som den första besökaren på vår nya hemsida, förtjänar du en present.</p>
-    </body>
-    <img src="emmaus.jpg" alt="emmaus lantgård">
-    </html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emaus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="../../css/Mobile.css">
+    <link rel="stylesheet" media="(min-width:769px) and (max-width:1199px)" href="../../css/Laptop.css">
+    <link rel="stylesheet" media="(min-width:1200px)" href="../../css/Main.css">
+    <link rel="icon" type="imgage/png" href="../../Images/regler.jpg">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logga"><a href="../Startsida/index.html">Emaus logga</a></li>
+                <li> <a href="../Startsida/index.html">Startsida</a></li>
+                <li><a href="../Våra Aktiviteter/Aktiviter.html">Aktiviteter</a></li>
+                <li><a href="../Nyheter/nyheter.html">Nyheter</a></li>
+                <li><a href="../Kontakta oss/Kontakta_oss.html">Kontakta oss</a></li>
+                <li><a href="../Om oss/Om_oss.html">Om oss</a></li>
+            </ul>
+        </nav>
+        <h1>Välkommen till Emaus Lantgård!</h1>
+    </header>
+    <section class="main-flexbox">
+        <figure> <h3>Öppettider: 08-00-16.00 alla dagar.</h3> <img src="../../Images/Emaus.jpg" alt="emaus lantgård">
+        <h2>
+
+            Emaus lantgård är en besöksgård i Uddevalla, där alla är välkomna! </h2> 
+                <p>  På Emaus träffar du fritidspedagog och djur: hästar, getter, katter, kaniner, grisar och hönor. Det finns också en lekplats. Området, som är ett naturreservat, bjuder in till promenader, lek och picknick. Runt lantgården leder en rullstols- och barnvagnsvänlig stig. <br><br> Det är också en fritidsverksamhet för barn och unga. <br> Lantgården är dessutom en resurs för djur- och naturunderstödda insatser i andra kommunala verksamheter, såsom skola, arbetsmarknad och socialtjänst.
+            
+            Det är ett omtyckt utflyktsmål för familj och grupper. 
+            
+           <br><br> Eftersom vår verksamhet är utomhus så påverkas den av väder och vind. Barnens och djurens dagsform och infall kan också påverka verksamheten tidsmässigt.
+            
+            Vänligen mata inte djuren, de kan bli sjuka av fel mat eller för mycket mat. Det gäller även gräs! Ibland har vi matningsaktiviteter- fråga fritidspedagog.
+            
+            Öppna inte och gå inte in i hagarna till djuren utan medföljande personal, för allas säkerhet; människor och djur. Tack! </p> </figure>
+            
+
+    </section>
+    
+    <section class="tripple-box">
+        <figure> 
+            <h3>Lek</h3>
+            <img src="../../Images/aktiviteter2.jpg" alt="barn på lekplats"> 
+            <figcaption>Hos oss är alla välkomna!</figcaption>
+        </figure>
+
+        <figure>
+            <h3>Umgås</h3>
+            <img src="../../Images/regler2.jpg" alt="lamm"> 
+            <figcaption>Vi har många olika gårdsdjur!</figcaption>
+        </figure>
+
+        <figure>
+            <h3>Våga</h3>
+            <img src="../../Images/startsida bigartikel2.jpg" alt="häst"> 
+            <figcaption>Testa på att rida!</figcaption>
+        </figure>
+    </section>
+        <section class="big-box">
+                <figure>
+                    <h1>Covid-19</h1>
+                    <img src="../../Images/artikelcorona2.jpg" alt="info corona"> 
+                    <figcaption>Vänligen besök oss när du är frisk!</figcaption>
+
+                    <h2>Covid-19 <br>
+                    Ponnyridning och hästskötargrupper är inställda tillsvidare.
+                    </h2>
+
+                    <p>Detta för att säkra djuromsorgen. 
+                        Medarbetare och vikarier behöver skyddas ifrån smittorisk. 
+                        Medarbetare med lättare förkylningssymptom kan då också arbeta med djuren, 
+                        om än inte med besökare.Vi välkomnar fortfarande besökare till naturreservat och till lekplats samt att titta på djuren naturligtvis!
+                    </p>
+
+                    <h2> Övriga öppettider för besök på gården 08.00-16.00 varje dag. Välkomna!
+                    </h2>
+                </figure>   
+        </section>
+
+       
+        <section class="big-footer">
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                       
+                    <div class="column-contact">
+                        <address>
+                            <h3>Emaus Lantgård</h3>
+                            <p>Kapellevägen 67<br>
+                            45130 Uddevalla</p>
+                        </address>
+                        <div class="phone"><i class="fas fa-phone fa-fw"></i><a href="tel:+46123456789">+46 1234 567 89</a></div>
+                        <div class="email"><i class="fas fa-envelope fa-fw"></i><a href="mailto:emaus@uddevalla.se">emaus@uddevalla.se</a></div>
+                    </div>
+                    <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2094.592907071388!2d11.925760415533487!3d58.332797981321214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46450fdfa71f0c09%3A0x33d7aff70f1273f2!2sEmaus%20lantg%C3%A5rd!5e0!3m2!1ssv!2sse!4v1589973900715!5m2!1ssv!2sse" 
+                    width="450" height="300" frameborder="0" style="border:50px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <div class="column links">
+                        <h3>Snabblänkar</h3>
+                        <ul>
+                            <li><a href="../Startsida/index.html">Startsida</a></li>
+                            <li><a href="../Våra Aktiviteter/Aktiviter.html">Våra aktiviteter</a></li>
+                            <li><a href="../Om oss/Om_oss.html">Om oss</a></li>
+                            <li><a href="../Kontakta oss/Kontakta_oss.html">Kontakta oss</a></li>
+                            <li> <a href="../Nyheter/nyheter.html">Nyheter</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="column social-links">
+                        <h3>Följ oss</h3>
+                        <ul>
+                            <li><a href="https://facebook.com"><i class="fab fa-facebook fa-fw "></i><span class="sr-only">Facebook</span></a></li>
+                            <li><a href="https://instagram.com"><i class="fab fa-instagram fa-fw"></i><span class="sr-only">Instagram</span></a></li>                        
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        </footer>
+    
+</body>
+</html> 
