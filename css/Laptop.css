@@ -1,0 +1,234 @@
+/* base */
+html {
+    font-size: 18px;
+    font-family: 'lato';
+    line-height: 1.5;
+}
+
+
+@font-face {
+font-family: "merriweather";
+src: url(../fonts/Merriweather/Merriweather-Black.ttf);
+font-family: "lato";
+src: url(../fonts/Lato/Lato-Black.ttf);
+
+}
+    
+        
+    
+body {
+    background:rgb(61, 60, 57);
+    color:white;
+    font-family: 'lato';
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+
+h1 {
+    font-size: 3rem;
+     margin: 20px;
+     color: white;
+     font-style: inherit;
+     font-family: "merriweather";
+     text-shadow: 0 2px 0 #000, -1px 0 0 #000;
+     
+    
+}
+h2 {
+    font-size: 2rem;
+    margin: 20px;
+    color: white;
+    font-family: "merriweather";
+
+}
+h3 {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: white;
+    font-family: "merriweather";
+}
+b {
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+    margin-bottom: 1rem;
+    font-family: 'lato';
+}
+img {
+
+    /* gör bilden responsiv */
+    display: block;
+    float: inline-start;
+    /* centrera bilden i viewport */
+    margin: auto;
+    width: 100%;
+}
+/* header*/
+
+header {
+    background: white;
+    color:rgb(241, 241, 241);
+    margin-bottom: 5px;
+    padding: 20px;
+    text-align: left;
+    background-image: url(../Images/start.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+    
+}
+header .logga a {
+    background: rgb(153, 108, 24);
+    background-size: 200px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    text-indent: -9999px;
+    background-image: url(../Images/Udd_kom_rgb.jpg)
+    
+}  
+
+ul {
+        margin-left:1rem;
+        padding-left: 1rem;
+        list-style-type:none;
+    }
+
+
+li {
+        display: inline-block;
+        margin: auto;
+        background: chocolate;
+        padding: 10px;
+        border-radius: 20px;
+    }
+       
+li:hover {
+        background-color: rgb(17, 177, 17)
+    }
+
+a {
+        text-decoration: none;
+        color: black;
+    }
+
+a:hover {
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+    }
+
+    /* RESPONSIVE RULES */
+
+/*Feature*/
+.main-flexbox
+{
+   display: flex;
+   background-color: rgb(97, 128, 60);
+}
+section {
+        background: white;
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-bottom: 5px;
+        max-width: 960px;
+
+    }
+
+.tripple-box 
+{
+    background: rgb(204, 153, 42);  
+}
+.tripple-box figure {
+   text-align: center;
+   margin: 0 auto;
+    display: block;
+    flex-direction: column;
+   
+}
+.infobox
+{
+    color: rgb(255, 255, 255);
+    background-color: chocolate;
+    display: flex;
+    float: left;
+    width: 800px;
+    
+}
+.tripple-box figure img
+{
+    box-shadow:black 0 0 20px;
+    display: block;
+    width: 50%;
+  
+   
+}
+   
+.big-box
+{
+    background: chocolate;
+    color: white;
+    text-align: center;
+}
+.big-box-nyheter
+{
+    background-color: rgb(214, 22, 22);
+}
+
+.big-box figure img{
+    box-shadow:black 0 0 20px;
+    width: 50%;
+    float: center;
+
+    
+    
+
+}
+.aktiviteter{
+    text-align: left;
+    
+}
+.aktiviteter ul{
+    border-radius: 0px;
+    padding: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    
+
+}
+
+.aktiviteter li {        
+    color: chocolate;
+    padding: 0px;
+    border-radius: 0px;
+    background: none;
+    margin: 5px;
+}
+
+
+
+/*Footer*/
+.big-footer{
+
+   background-color: rgb(87, 85, 79);
+}
+.site-footer {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+
+}
+.phone a{
+    color: white;
+    
+}
+.email a{
+    color: white;
+}
